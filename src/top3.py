@@ -6,57 +6,78 @@ mpy_config.change_settings({
     "IMAGEMAGICK_BINARY": "C:\\Program Files\\ImageMagick-7.1.1-Q16-HDRI\\magick.exe"
 })
 
-""" clip1 = ImageClip("./src/3.webp").set_duration(2)
-clip2 = ImageClip("./src/4.webp").set_duration(2) """
-clip3 = VideoFileClip("./data/vid/1.mp4")
-clip4 = VideoFileClip("./data/vid/2.mp4")
-clip5 = VideoFileClip("./data/vid/3.mp4")
+clip1 = VideoFileClip("./data/vid/1.mp4")
+clip2 = VideoFileClip("./data/vid/2.mp4")
+clip3 = VideoFileClip("./data/vid/3.mp4")
 
 audio = AudioFileClip("./data/audio/1.mp3")
 
+subtitle_srt = pysrt.open("./data/subtitles/1.srt", encoding='utf-8')
 
-finalvideo = concatenate_videoclips([clip3, clip4, clip5])
-finalvideo = finalvideo.loop(duration=audio.duration) #condicional para ver quien es mas largo
-finalvideo.audio = CompositeAudioClip([audio])
+video_copilation = None
 
-subs = pysrt.open("./data/subtitles/1.srt", encoding='utf-8')
+def video_creator(clip1, clip2, clip3):
 
-# Convertir los subtítulos a formato MoviePy (start_time, end_time, text)
-subtitles_data = [
-    ((sub.start.ordinal / 1000, sub.end.ordinal / 1000), sub.text) for sub in subs
-]
+    global video_copilation
 
-bloque_ancho = finalvideo.w
-bloque_alto = 220  # altura estándar para todos los subtítulos
-bloque_y = finalvideo.h - 300  # distancia desde arriba (ajústalo si quieres más arriba/abajo)
+    video_copilation = concatenate_videoclips([clip1, clip2, clip3])
 
-subtitles = SubtitlesClip(
-    subtitles_data,
-    lambda txt: CompositeVideoClip([
-        # Fondo del bloque (seminegro, semitransparente)
-        ColorClip(size=(bloque_ancho, bloque_alto), color=(0, 0, 0))
-        .set_opacity(0)
-        .set_duration(3),  # será reemplazado automáticamente por la duración del texto
+def audio_creator(audio):
 
-        # Texto centrado en el bloque
-        TextClip(
-            txt,
-            fontsize=40,
-            font="Arial-Black",
-            color="yellow",
-            stroke_color="black",
-            stroke_width=2,
-            method="caption",
-            align="center",
-            size=(finalvideo.w * 0.9, bloque_alto)
-        ).set_position("center")
+    global video_copilation
+
+    if video_copilation.duration > audio.duration:
+        video_copilation = video_copilation.subclip(0, audio.duration)
+    else:
+        video_copilation = video_copilation.loop(duration=audio.duration)
+    video_copilation = video_copilation.set_audio(audio)
+
+def subtitles(subtitle_srt):
+
+    global video_copilation
+
+    subtitles_data = [
+        ((sub.start.ordinal / 1000, sub.end.ordinal / 1000), sub.text) for sub in subtitle_srt
+    ]
+
+    bloque_ancho = video_copilation.w
+    bloque_alto = 220  # altura estándar para todos los subtítulos
+    bloque_y = video_copilation.h - 300  # distancia desde arriba (ajústalo si quieres más arriba/abajo)
+
+    subtitles = SubtitlesClip(
+        subtitles_data,
+        lambda txt: CompositeVideoClip([
+            # Fondo del bloque (seminegro, semitransparente)
+            ColorClip(size=(bloque_ancho, bloque_alto), color=(0, 0, 0))
+            .set_opacity(0)
+            .set_duration(3),  # será reemplazado automáticamente por la duración del texto
+
+            # Texto centrado en el bloque
+            TextClip(
+                txt,
+                fontsize=40,
+                font="Arial-Black",
+                color="yellow",
+                stroke_color="black",
+                stroke_width=2,
+                method="caption",
+                align="center",
+                size=(video_copilation.w * 0.9, bloque_alto)
+            ).set_position("center")
+        ])
+    )
+
+    video_copilation = CompositeVideoClip([
+        video_copilation,
+        subtitles.set_position(("center", bloque_y))
     ])
-)
 
-finalvideo = CompositeVideoClip([
-    finalvideo,
-    subtitles.set_position(("center", bloque_y))
-])
 
-finalvideo.write_videofile("asda.mp4", fps=24)
+def main_top3():
 
+    global video_copilation
+    
+    video_creator(clip1, clip2, clip3)
+    audio_creator(audio)
+    subtitles(subtitle_srt)
+    video_copilation.write_videofile("./videos/top3noticiashoy.mp4", fps=24)
