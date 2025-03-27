@@ -10,9 +10,9 @@ clip1 = VideoFileClip("./data/vid/1-1.mp4")
 clip2 = VideoFileClip("./data/vid/2-1.mp4")
 clip3 = VideoFileClip("./data/vid/3-1.mp4")
 
-audio = AudioFileClip("./data/audio/1.mp3")
+audio = AudioFileClip("./data/audio/top3.mp3")
 
-subtitle_srt = pysrt.open("./data/subtitles/1.srt", encoding='utf-8')
+subtitle_srt = pysrt.open("./data/subtitles/top3.srt", encoding='utf-8')
 
 video_copilation = None
 
@@ -80,4 +80,4 @@ def main_top3():
     video_creator()
     audio_creator(audio)
     subtitles(subtitle_srt)
-    video_copilation.write_videofile("./videos/top3noticiashoy.mp4", fps=24)
+    video_copilation.write_videofile("./videos/top3.mp4", fps=24)
