@@ -6,9 +6,9 @@ mpy_config.change_settings({
     "IMAGEMAGICK_BINARY": "C:\\Program Files\\ImageMagick-7.1.1-Q16-HDRI\\magick.exe"
 })
 
-clip1 = VideoFileClip("./data/vid/1.mp4")
-clip2 = VideoFileClip("./data/vid/2.mp4")
-clip3 = VideoFileClip("./data/vid/3.mp4")
+clip1 = VideoFileClip("./data/vid/1-1.mp4")
+clip2 = VideoFileClip("./data/vid/2-1.mp4")
+clip3 = VideoFileClip("./data/vid/3-1.mp4")
 
 audio = AudioFileClip("./data/audio/1.mp3")
 
@@ -16,7 +16,7 @@ subtitle_srt = pysrt.open("./data/subtitles/1.srt", encoding='utf-8')
 
 video_copilation = None
 
-def video_creator(clip1, clip2, clip3):
+def video_creator():
 
     global video_copilation
 
@@ -77,7 +77,7 @@ def main_top3():
 
     global video_copilation
     
-    video_creator(clip1, clip2, clip3)
+    video_creator()
     audio_creator(audio)
     subtitles(subtitle_srt)
     video_copilation.write_videofile("./videos/top3noticiashoy.mp4", fps=24)
