@@ -10,7 +10,7 @@ def get_news_data():
     load_dotenv(".env")
     APIKEY = os.getenv("APIKEY_NEWS")
 
-    category = "politics" #He probado con business y technology. Economy no funciona, no sé si se refiere también a business
+    category = "business" #He probado con business y technology. Economy no funciona, no sé si se refiere también a business
     base_url = f"https://newsapi.org/v2/top-headlines?category={category}&apiKey="
     api_key = APIKEY
 
