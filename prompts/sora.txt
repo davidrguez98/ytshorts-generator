@@ -1,1 +1,7 @@
-Crea un vídeo realista de 30 segundos. La escena muestra imágenes relacionadas con el siguiente guion.
+Crea un vídeo realista de 30 segundos. Todo esto va a ser para un canal de YouTube Shorts de noticias, con lo cual quiero un video que similar a los que ponen en las noticias cuando están contando el suceso.
+
+-----------
+
+
+Crea un vídeo realista de 30 segundos. La escena debe parecer una cobertura de noticias políticas. Muestra imágenes de campaña en Wisconsin, votaciones, discursos públicos, recortes de prensa, y gráficos de resultados electorales. Estilo visual tipo CNN, PBS o Bloomberg Politics.
+
