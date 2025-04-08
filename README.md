@@ -103,3 +103,17 @@ APIKEY_NEWS=tu_clave_aqui
 
 - El sistema no incluye autenticación ni subida directa a YouTube (aunque puede integrarse con la API).
 - Ideal para escalar hacia producción masiva de contenido informativo o viral.
+
+## 🗺️ Excalidraw
+
+![Excalidraw](./assets/screenshots/excalidraw.png)
+
+## 👨‍💻 Contacto
+
+Si quieres ver más proyectos o ponerte en contacto conmigo:
+
+- GitHub: [@davidrguez98](https://github.com/davidrguez98)
+- LinkedIn: [David Rodríguez](https://www.linkedin.com/in/davidrguez98)
+- Correo: ropeda98@gmail.com
+
+¡Estoy abierto a colaboraciones, feedback o nuevas oportunidades!
