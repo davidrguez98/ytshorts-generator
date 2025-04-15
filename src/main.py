@@ -7,7 +7,5 @@ def main():
 
     main_top3()
     main_new1()
-    """ main_new2()
-    main_new3() """
 
 main()
