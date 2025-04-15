@@ -1,7 +1,5 @@
-from new1 import *
-from new2 import *
-from new3 import *
 from top3 import *
+from new1 import *
 
 def main():
 

@@ -81,5 +81,3 @@ def main_top3():
     audio_creator(audio)
     subtitles(subtitle_srt)
     video_copilation.write_videofile("./videos/top3.mp4", fps=24)
-
-main_top3()
