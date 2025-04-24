@@ -7,6 +7,7 @@ def main():
     main_top3()
     main_new1()
 
-    rmtree("./src/__pycache__")
+    if "./src/__pycache__":
+        rmtree("./src/__pycache__")
 
 main()
