@@ -72,7 +72,8 @@ def format_data(news_data):
 #         if len(todayNews) < 4:
 #             todayNews = news
 
-#         print(todayNews)
+#     with open("email.txt", "w") as fileTodayNews:
+#         fileTodayNews.write(str(todayNews))
 
 """ MAIN """
 
