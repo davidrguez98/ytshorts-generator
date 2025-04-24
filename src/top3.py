@@ -6,13 +6,13 @@ mpy_config.change_settings({
     "IMAGEMAGICK_BINARY": "C:\\Program Files\\ImageMagick-7.1.1-Q16-HDRI\\magick.exe"
 })
 
-clip1 = VideoFileClip("./data/vid/1-1.mp4")
-clip2 = VideoFileClip("./data/vid/2-1.mp4")
-clip3 = VideoFileClip("./data/vid/3-1.mp4")
+clip1 = VideoFileClip("./data/1-1.mp4")
+clip2 = VideoFileClip("./data/2-1.mp4")
+clip3 = VideoFileClip("./data/3-1.mp4")
 
-audio = AudioFileClip("./data/audio/top3.mp3")
+audio = AudioFileClip("./data/top3.mp3")
 
-subtitle_srt = pysrt.open("./data/subtitles/top3.srt", encoding='utf-8')
+subtitle_srt = pysrt.open("./data/top3.srt", encoding='utf-8')
 
 video_copilation = None
 
