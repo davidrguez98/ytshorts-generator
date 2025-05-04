@@ -41,45 +41,45 @@ def format_data(news_data):
     with open(data_news, "w") as data_news:
         json.dump(news, data_news)
 
-    # return data_news 
+    return data_news 
 
 """ SELECCIÓN DE NOTICIAS """
 
-# def formatJSON(jsonFile):
+def formatJSON(jsonFile):
 
-#     data_news = "data_news.json"
+    data_news = "data_news.json"
 
-#     with open (data_news, "r") as news1:
+    with open (data_news, "r") as news1:
         
-#         news = json.load(news1)
-#         todayNews = []
+        news = json.load(news1)
+        todayNews = []
         
-#         for new in news:
+        for new in news:
             
-#             mainNew = datetime.datetime.strptime((news[0].get("publishedAt")), '%Y-%m-%dT%H:%M:%SZ').date()
+            mainNew = datetime.datetime.strptime((news[0].get("publishedAt")), '%Y-%m-%dT%H:%M:%SZ').date()
 
-#             if mainNew == datetime.datetime.strptime(new.get("publishedAt"), '%Y-%m-%dT%H:%M:%SZ').date():
+            if mainNew == datetime.datetime.strptime(new.get("publishedAt"), '%Y-%m-%dT%H:%M:%SZ').date():
 
-#                 newObject = {
-#                     "title": new.get("title"),
-#                     "description": new.get("description"),
-#                     "publishedAt": new.get("publishedAt")
-#                 }
-#                 todayNews.append(newObject)
-#             else:
-#                 pass
+                newObject = {
+                    "title": new.get("title"),
+                    "description": new.get("description"),
+                    "publishedAt": new.get("publishedAt")
+                }
+                todayNews.append(newObject)
+            else:
+                pass
 
-#         if len(todayNews) < 4:
-#             todayNews = news
+        if len(todayNews) < 4:
+            todayNews = news
 
-#     with open("email.txt", "w") as fileTodayNews:
-#         fileTodayNews.write(str(todayNews))
+    with open("email.txt", "w") as fileTodayNews:
+        fileTodayNews.write(str(todayNews))
 
 """ MAIN """
 
 def main():
 
-    format_data(get_news_data())
-    # formatJSON(format_data(get_news_data()))
+    # format_data(get_news_data())
+    formatJSON(format_data(get_news_data()))
 
-main()
+# main()
