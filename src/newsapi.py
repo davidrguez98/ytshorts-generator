@@ -72,7 +72,7 @@ def formatJSON(jsonFile):
         if len(todayNews) < 4:
             todayNews = news
 
-    with open("email.txt", "w") as fileTodayNews:
+    with open("email.txt", "w", encoding="utf-8") as fileTodayNews:
         fileTodayNews.write(str(todayNews))
 
 """ MAIN """

@@ -77,3 +77,4 @@ def main_new1():
     audio_creator_new(audio)
     subtitles_new(subtitle_srt)
     video_copilation.write_videofile("./videos/new1.mp4", fps=24)
+
