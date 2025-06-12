@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:02,298
+Estas son las tres noticias políticas
+
+2
+00:00:02,298 --> 00:00:03,870
+más relevantes de hoy
+
+3
+00:00:03,870 --> 00:00:06,350
+Primero las negociaciones comerciales
+
+4
+00:00:06,350 --> 00:00:07,914
+entre Estados Unidos y China
+
+5
+00:00:07,914 --> 00:00:09,334
+continúan en Londres
+
+6
+00:00:09,334 --> 00:00:10,780
+con avances aunque
+
+7
+00:00:10,780 --> 00:00:12,042
+los mercados bursátiles
+
+8
+00:00:12,042 --> 00:00:13,684
+siguen a la espera de más detalles
+
+9
+00:00:13,684 --> 00:00:15,242
+sobre el marco del acuerdo
+
+10
+00:00:15,295 --> 00:00:16,184
+Segundo
+
+11
+00:00:16,600 --> 00:00:19,788
+Estados Unidos y China acordaron que los presidentes
+
+12
+00:00:19,788 --> 00:00:22,044
+Trump y she revisarán
+
+13
+00:00:22,075 --> 00:00:26,044
+y aprobarán aranceles específicos en los próximos días
+
+14
+00:00:26,195 --> 00:00:29,304
+lo que podría alterar el panorama del comercio global
+
+15
+00:00:30,000 --> 00:00:30,843
+Tercero
+
+16
+00:00:30,996 --> 00:00:35,059
+en Nueva Jersey celebraron primarias para gobernador
+
+17
+00:00:35,059 --> 00:00:38,039
+y resultaron ganadores Jack chiatareli
+
+18
+00:00:38,039 --> 00:00:39,749
+por el partido republicano
+
+19
+00:00:39,749 --> 00:00:42,639
+y Mickey Sheryl por el partido demócrata
+
+20
+00:00:42,639 --> 00:00:45,079
+lo que anticipa una contienda reñida
+
+21
+00:00:45,079 --> 00:00:46,743
+en las elecciones estatales
+

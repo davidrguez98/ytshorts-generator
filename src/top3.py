@@ -72,7 +72,6 @@ def subtitles(subtitle_srt):
         subtitles.set_position(("center", bloque_y))
     ])
 
-
 def main_top3():
 
     global video_copilation

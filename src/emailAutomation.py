@@ -1,8 +1,6 @@
 from newsAPI import *
 from emailConfig import *
 
-
-
 def emailAutomation():
 
     main()

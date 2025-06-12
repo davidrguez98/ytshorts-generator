@@ -2,6 +2,7 @@ from moviepy.editor import *
 from moviepy.video.tools.subtitles import SubtitlesClip
 import moviepy.config as mpy_config
 import pysrt
+
 mpy_config.change_settings({
     "IMAGEMAGICK_BINARY": "C:\\Program Files\\ImageMagick-7.1.1-Q16-HDRI\\magick.exe"
 })

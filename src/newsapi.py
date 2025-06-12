@@ -82,4 +82,3 @@ def main():
     # format_data(get_news_data())
     formatJSON(format_data(get_news_data()))
 
-# main()
