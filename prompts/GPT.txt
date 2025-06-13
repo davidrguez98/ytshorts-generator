@@ -10,7 +10,7 @@ FASE 2 – REGLAS PARA CADA VÍDEO:
 - Todos los guiones deben tener entre 500 y 700 caracteres exactos.
 - El VÍDEO 1 debe tener un tono neutral, informativo y objetivo.
 - Los VÍDEOS 2, 3 y 4 deben tener tono emocional, político, polémico o provocador.
-- El orden de los vídeos 2, 3 y 4 debe coincidir con el orden de noticias en el vídeo 1.
+- El orden de los vídeos 2, 3 y 4 debe coincidfir con el orden de noticias en el vídeo 1.
 - Los títulos deben ser emocionales y virales. Evita lenguaje neutro o técnico.
 - Incluye un gancho textual fuerte en las primeras 10 palabras del guion de los vídeos 2, 3 y 4 para maximizar la retención.
 - No se permiten siglas (ej: di “Estados Unidos” en lugar de “EE.UU.”).
