@@ -1,84 +1,84 @@
 1
-00:00:00,000 --> 00:00:02,298
+00:00:00,000 --> 00:00:02,431
 Estas son las tres noticias políticas
 
 2
-00:00:02,298 --> 00:00:03,870
-más relevantes de hoy
+00:00:02,431 --> 00:00:04,393
+más destacadas del día
 
 3
-00:00:03,870 --> 00:00:06,350
-Primero las negociaciones comerciales
+00:00:05,066 --> 00:00:09,030
+Primero Donald Trump habló en la base de for Brack y
 
 4
-00:00:06,350 --> 00:00:07,914
-entre Estados Unidos y China
+00:00:09,030 --> 00:00:12,760
+ante aplausos y abucheos de soldados uniformados
 
 5
-00:00:07,914 --> 00:00:09,334
-continúan en Londres
+00:00:12,760 --> 00:00:15,096
+lanzó ataques partidistas
 
 6
-00:00:09,334 --> 00:00:10,780
-con avances aunque
+00:00:15,440 --> 00:00:16,496
+lo que abrió un debate
 
 7
-00:00:10,780 --> 00:00:12,042
-los mercados bursátiles
+00:00:16,496 --> 00:00:18,676
+sobre la neutralidad del ejército
 
 8
-00:00:12,042 --> 00:00:13,684
-siguen a la espera de más detalles
+00:00:18,676 --> 00:00:20,896
+y motivó una pesquisa interna
 
 9
-00:00:13,684 --> 00:00:15,242
-sobre el marco del acuerdo
+00:00:20,896 --> 00:00:23,000
+Segundo Greg Abbot
 
 10
-00:00:15,295 --> 00:00:16,184
-Segundo
+00:00:23,000 --> 00:00:25,576
+movilizó 5000 guardias nacionales
 
 11
-00:00:16,600 --> 00:00:19,788
-Estados Unidos y China acordaron que los presidentes
+00:00:25,576 --> 00:00:27,593
+y miles de policías estatales
 
 12
-00:00:19,788 --> 00:00:22,044
-Trump y she revisarán
+00:00:27,880 --> 00:00:28,714
+para custodiar
 
 13
-00:00:22,075 --> 00:00:26,044
-y aprobarán aranceles específicos en los próximos días
+00:00:28,714 --> 00:00:31,360
+protestas contra las redadas migratorias
 
 14
-00:00:26,195 --> 00:00:29,304
-lo que podría alterar el panorama del comercio global
+00:00:31,360 --> 00:00:33,482
+y el desfile de cumpleaños de Trump
 
 15
-00:00:30,000 --> 00:00:30,843
-Tercero
+00:00:33,482 --> 00:00:36,240
+intensificando el pulso entre Texas
 
 16
-00:00:30,996 --> 00:00:35,059
-en Nueva Jersey celebraron primarias para gobernador
+00:00:36,240 --> 00:00:38,862
+California y la Casa Blanca
 
 17
-00:00:35,059 --> 00:00:38,039
-y resultaron ganadores Jack chiatareli
+00:00:39,320 --> 00:00:42,130
+Tercero el activista David Hawk
 
 18
-00:00:38,039 --> 00:00:39,749
-por el partido republicano
+00:00:42,189 --> 00:00:44,240
+decidió no competir otra vez
 
 19
-00:00:39,749 --> 00:00:42,639
-y Mickey Sheryl por el partido demócrata
+00:00:44,240 --> 00:00:47,210
+por la vicepresidencia del comité Nacional demócrata
 
 20
-00:00:42,639 --> 00:00:45,079
-lo que anticipa una contienda reñida
+00:00:47,210 --> 00:00:48,753
+tras anularse su elección
 
 21
-00:00:45,079 --> 00:00:46,743
-en las elecciones estatales
+00:00:49,049 --> 00:00:52,770
+señalando que se centrará en reclutar líderes jóvenes
 
