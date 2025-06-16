@@ -1,84 +1,52 @@
 1
-00:00:00,000 --> 00:00:02,431
-Estas son las tres noticias políticas
+00:00:00,000 --> 00:00:03,907
+Estas son las tres noticias más relevantes hoy
 
 2
-00:00:02,431 --> 00:00:04,393
-más destacadas del día
+00:00:04,312 --> 00:00:08,836
+Primero el asesinato de la líder demócrata de Minnesota
 
 3
-00:00:05,066 --> 00:00:09,030
-Primero Donald Trump habló en la base de for Brack y
+00:00:08,836 --> 00:00:13,633
+Melissa hortman y su esposo en un ataque dirigido
 
 4
-00:00:09,030 --> 00:00:12,760
-ante aplausos y abucheos de soldados uniformados
+00:00:13,960 --> 00:00:17,043
+y el tiroteo a otro senador y su esposa
 
 5
-00:00:12,760 --> 00:00:15,096
-lanzó ataques partidistas
+00:00:17,435 --> 00:00:22,463
+un atentado con motivación política que sacude al país
 
 6
-00:00:15,440 --> 00:00:16,496
-lo que abrió un debate
+00:00:23,406 --> 00:00:28,976
+Segundo la movilización masiva del movimiento no Kings
 
 7
-00:00:16,496 --> 00:00:18,676
-sobre la neutralidad del ejército
+00:00:29,206 --> 00:00:33,409
+que ayer congregó a millones en protestas antitramp
 
 8
-00:00:18,676 --> 00:00:20,896
-y motivó una pesquisa interna
+00:00:33,409 --> 00:00:37,994
+aunque en sold Lake City un herido empañó la jornada
 
 9
-00:00:20,896 --> 00:00:23,000
-Segundo Greg Abbot
+00:00:38,650 --> 00:00:39,749
+Tercero
 
 10
-00:00:23,000 --> 00:00:25,576
-movilizó 5000 guardias nacionales
+00:00:39,850 --> 00:00:43,936
+Arabia Saudí incrementó su producción de petróleo
 
 11
-00:00:25,576 --> 00:00:27,593
-y miles de policías estatales
+00:00:43,936 --> 00:00:46,741
+justo antes del ataque de Israel a irán
 
 12
-00:00:27,880 --> 00:00:28,714
-para custodiar
+00:00:47,170 --> 00:00:49,450
+en un movimiento estratégico
 
 13
-00:00:28,714 --> 00:00:31,360
-protestas contra las redadas migratorias
-
-14
-00:00:31,360 --> 00:00:33,482
-y el desfile de cumpleaños de Trump
-
-15
-00:00:33,482 --> 00:00:36,240
-intensificando el pulso entre Texas
-
-16
-00:00:36,240 --> 00:00:38,862
-California y la Casa Blanca
-
-17
-00:00:39,320 --> 00:00:42,130
-Tercero el activista David Hawk
-
-18
-00:00:42,189 --> 00:00:44,240
-decidió no competir otra vez
-
-19
-00:00:44,240 --> 00:00:47,210
-por la vicepresidencia del comité Nacional demócrata
-
-20
-00:00:47,210 --> 00:00:48,753
-tras anularse su elección
-
-21
-00:00:49,049 --> 00:00:52,770
-señalando que se centrará en reclutar líderes jóvenes
+00:00:49,450 --> 00:00:52,981
+con influencia geopolítica y económica
 

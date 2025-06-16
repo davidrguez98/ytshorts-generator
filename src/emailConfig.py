@@ -1,4 +1,4 @@
-from newsAPI import *
+from newsapi import *
 import yagmail
 from dotenv import load_dotenv
 import os
